@@ -1,0 +1,5 @@
+<h1>Parent Component</h1>
+<input type="text" (keyup)="0" #ptext/>
+<!--included child component-->
+<app-child [pdata]="ptext.value"></app-child>
+
